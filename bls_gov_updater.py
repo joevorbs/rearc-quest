@@ -23,7 +23,7 @@ write_bucket = 'bls-timeseries-data'
 s3 = boto3.resource('s3')
 
 #List of datasets to loop through - in the case that these ever need to change in the future without editing reptitive code
-datasets_suffix = ["pr.data.0.Current", "pr.data.1.AllData", "pr.duration", "pr.footnote", "pr.measure", "pr.period", "pr.seasonal", "pr.sector", "pr.series"]
+datasets_suffix = ["pr.data.0.Current", "pr.data.1.AllData", "pr.series"] #appear to be the 3 main datasets
 
 #Loop through all items in the BLS directory, extract each dataset and store as an item in a list
 dataset_list = []
