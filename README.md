@@ -23,5 +23,4 @@ The code for part 1 works as so:
 ----
 #### Notes
 - Glue tables could have been used as the data store, if this was more of a data lake setup I think that might be a better approach
-
-  
+- Using bucket versioning and removing date partitions may be best approach if we can get away with a single file per dataset
