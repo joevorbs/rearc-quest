@@ -8,10 +8,11 @@ The code for part 1 works as so:
 - The script then downloads the current day's data and compares it against to the previously downloaded data
 - If there are differences in the file it will be saved and stored as the current file for that day, if not the original downloaded file will be saved
 ----
-#### Part 2: AWS S3 & Sourcing Datasets
+#### Part 2: APIs
+This is a relatively straight forward python script that extracts us population data from datausa using their api
 
-
-
+----
+#### Part 3: Data Analytics
 
 
 
