@@ -36,5 +36,6 @@ def lambda_handler(event, context):
             time.sleep(10)
             response_report = client.start_job_run(JobName = 'task_3_analytics')
             print("Report Generation in Progress")
+            break
         
     return [response_bls, response_usa, response_report]
