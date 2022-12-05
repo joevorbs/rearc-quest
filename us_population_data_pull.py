@@ -26,4 +26,4 @@ pop_data = re.get("https://datausa.io/api/data?drilldowns=Nation&measures=Popula
 pop_data_df = pd.DataFrame(pop_data.json()['data'])
 
 #Write data to s3
-pop_data_df.to_csv("s3://" + write_bucket + "/" + "pop_data.csv")
+pop_data_df.to_json("s3://" + write_bucket + "/" + "pop_data.json")
