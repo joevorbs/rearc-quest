@@ -13,9 +13,11 @@ This is a relatively straight forward python script that extracts us population 
 
 ----
 #### Part 3: Data Analytics
+This notebook displays some analytics performed on the collected data as well as a few spot checks to ensure the proper report output was achieved
 
-
-
+----
+#### Part 4: Infrastructure as Code & Data Pipeline with AWS CDK
+The code here contains a lambda function that runs both data pulls from part 1 and 2, as well as the cloudformation template (YAML) that triggers these to run daily
 
 
 
