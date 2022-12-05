@@ -33,3 +33,7 @@ The code here contains a lambda function that runs both data pulls from part 1 a
 - Glue tables could have been used as the data store, if this was more of a data lake setup I think that might be a better approach
 - Using bucket versioning and removing date partitions may be best approach if we can get away with a single file per dataset
 - With more time, I would make the analytics job trigger more elegant in the lambda function (I included a 10 second implicit sleep, would build out the conditional statement more, etc.)
+----
+#### Sources
+- CF: https://www.sentiatechblog.com/defining-a-scheduled-lambda-in-cloudformation
+- Lambda: https://aws.amazon.com/premiumsupport/knowledge-center/start-glue-job-crawler-completes-lambda/
