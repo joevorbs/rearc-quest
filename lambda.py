@@ -1,4 +1,3 @@
-# Set up logging
 import json
 import os
 import logging
