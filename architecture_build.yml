@@ -58,7 +58,7 @@
         },
         "LambdaFunctionSchedule": {
             "Properties": {
-                "ScheduleExpression": "cron(0/5 * * * ? *)",
+                "ScheduleExpression": "cron(00 17 * * ? *)",
                 "Targets": [
                     {
                         "Arn": {
