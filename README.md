@@ -30,6 +30,7 @@ The code for this section contains a lambda function that runs both data pulls f
 - Using bucket versioning and removing date partitions may be best approach if we can get away with a single file per dataset for the 2 extracts
 - I decided to hard code the 3 main datasets in the BLS data pull because the only tool I thought to use was beautifulsoup/parsing the HTML on the page which didn't see like the appropriate method to download the data.
 - With more time, I would make the analytics job trigger more elegant in the lambda function (I included a 10 second implicit sleep, would build out the conditional statement more, etc.)
+- Depending on when the script would run, with everything being in UTC time, running this at a certain time in the current day generates data for the next, it would get overwritten the next day properly but with more time I would build it out differently
 - With more time I would also like to build out the SQS queue section of the architecture.
 - This project was a lot of fun, provided a challenge, and I'm eager to hear back from the team and learn more.
 ----
