@@ -41,7 +41,7 @@
             "Properties": {
                 "Code": {
                     "S3Bucket": "lambda-code-quest",
-                    "S3Key": "data_pull-a7d01633-7da8-4f63-acb9-a6a080126090.zip"
+                    "S3Key": "script.zip"
                 },
                 "Handler": "index.lambda_handler",
                 "MemorySize": 128,
